@@ -1,0 +1,29 @@
+/* CSS Eksternal */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background-image: url('background.jpg'); /* Ganti dengan nama file foto Anda */
+    background-size: cover; /* Agar foto menutupi seluruh latar belakang */
+    background-position: center; /* Agar foto terletak di tengah */
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(8, 10, 40);
+}
+
+main {
+    text-align: center; /* Menambahkan ini untuk memusatkan teks di dalam main */
+}
+
+footer {
+    text-align: center; /* Menambahkan ini untuk memusatkan teks di dalam footer */
+    padding: 20px 0; /* Menambahkan padding untuk footer */
+}
+
+.bio p {
+    margin: 5px 0; /* Menambahkan margin untuk paragraf dalam bio */
+    line-height: 5.0; /* Menambahkan jarak antar baris */
+}

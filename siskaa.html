@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    
+    <!-- CSS Internal -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            background-image: url('background.jpg'); /* Ganti dengan nama file foto Anda */
+            background-size: cover; /* Agar foto menutupi seluruh latar belakang */
+            background-position: center; /* Agar foto terletak di tengah */
+        }
+        
+        header {
+            padding: 20px 0;
+            text-align: center;
+            color: rgb(8, 10, 40);
+        }
+
+        main {
+            text-align: center; /* Menambahkan ini untuk memusatkan teks di dalam main */
+        }
+
+        footer {
+            text-align: center; /* Menambahkan ini untuk memusatkan teks di dalam footer */
+            padding: 20px 0; /* Menambahkan padding untuk footer */
+        }
+
+        .bio p {
+            margin: 5px 0; /* Menambahkan margin untuk paragraf dalam bio */
+        }
+    </style>
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="styles.css"> <!-- Ganti dengan nama file CSS eksternal Anda -->
+</head>
+<body>
+    <header>
+        <h1 style="margin: 0; font-weight: 300;">Portofolio Saya</h1> <!-- CSS Inline -->
+    </header>
+
+    <main class="container"> 
+        <section id="profile">
+            <!-- Foto dengan ukuran lebih kecil dan inline CSS -->
+            <img src="fotooo.jpg" alt="Foto Profil" 
+                 style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 3px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+            
+            <h2>Tentang Saya</h2>
+            
+            <div class="bio">
+                <p><strong>Nama :</strong> Siska Anjelin</p>
+                <p><strong>Kelas :</strong> XI RPL B</p>
+                <p><strong>Tanggal Lahir :</strong> 29 April 2008</p>
+                <p><strong>Hobi :</strong> Memasak & Menonton Film </p>
+                <p><strong>Warna Favorit :</strong> Pink</p>
+                <p><strong>MBTI :</strong> ENFJ</p>
+                <p><strong>Genre Lagu :</strong> Pop</p>   
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Portofolio Siska</p>
+    </footer>
+</body>
+</html>
